@@ -22,7 +22,7 @@
     "build": "rollup -c",
     "lint": "eslint src test/*.js",
     "pretest": "npm run build",
-    "test": "mocha --compilers js:buble/register",
+    "test": "",
     "posttest": "npm run lint",
     "prepublish": "npm run test"
   },
